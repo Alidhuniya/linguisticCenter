@@ -1,0 +1,25 @@
+
+{
+    "_comments": "// Linguistic Institute JSON data as Public API",
+
+    "topNav": "Every Three Months, site keeps on updating",
+
+    "navBar" : [
+        {
+            "logoImg": "",
+            "logoHeading": " Linguistic Center" 
+        },
+
+        [
+            {"home": "home"},
+            {"about" : "about"},
+            {"whyUs": "why Us?"},
+            {"programs": "programs"},
+            {"upcoming": "upcoming"},
+            {"schedule": "schedule"},
+            {"contact": "contact"},
+            {"phoneNumber": "+977-9845444567"}
+        ]
+
+    ]
+}
