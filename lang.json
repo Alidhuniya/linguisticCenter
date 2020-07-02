@@ -1,25 +1,345 @@
-
 {
-    "_comments": "// Linguistic Institute JSON data as Public API",
-
-    "topNav": "Every Three Months, site keeps on updating",
-
-    "navBar" : [
-        {
-            "logoImg": "",
-            "logoHeading": " Linguistic Center" 
-        },
-
-        [
-            {"home": "home"},
-            {"about" : "about"},
-            {"whyUs": "why Us?"},
-            {"programs": "programs"},
-            {"upcoming": "upcoming"},
-            {"schedule": "schedule"},
-            {"contact": "contact"},
-            {"phoneNumber": "+977-9845444567"}
-        ]
-
+  "_comments": "// Linguistic Institute JSON data as Public API",
+  "topNav": "Every Three Months, site keeps on updating",
+  "navBar": [
+    {
+      "logoImg": "",
+      "logoHeading": " Linguistic Center"
+    },
+    [
+      {
+        "home": "home"
+      },
+      {
+        "about": "about"
+      },
+      {
+        "whyUs": "why Us?"
+      },
+      {
+        "programs": "programs"
+      },
+      {
+        "upcoming": "upcoming"
+      },
+      {
+        "schedule": "schedule"
+      },
+      {
+        "contact": "contact"
+      },
+      {
+        "phoneNumber": "+977-9845444567"
+      }
     ]
+  ],
+  "mainContainerImg": "",
+  "containerHeading": "Learn Interaction with Languages",
+  "containerBtn": "choose language",
+  "chooseLangHeading": "choose language",
+  "languages": [
+    {
+      "flagImg": "",
+      "flagHeading": " Nepali"
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " English "
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " chinese "
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " german"
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " italian "
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " spanish "
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " french"
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " japanese"
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " chech "
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " portugee"
+    },
+    {
+      "flagImg": "",
+      "flagHeading": " Hindi"
+    }
+  ],
+  "aboutHeading": "About Us",
+  "aboutParag0": "Our Linguistic Center is establish in 2005 with the motive of inspiring youths to speak the language of what they want in terms of career success or any kind of purpose. We teach several languages from past 15 years",
+  "aboutParag1": "Each Year from Linguistic Center, around 250 students pass the test and have proper understanding with speaking capabilities. Not only that our institute provides the way ro access foreign visa based on student performance ",
+  "aboutLocation": "Rupandehi, Bhairahwa",
+  "aboutBtn": "why us",
+  "aboutImg": "",
+  "tourImg": "",
+  "tourHeading": "Take A Tour of Our Center - Linguistic ",
+  "tourDec": "State-of-the-art language learning facilities and online resource",
+  "testHeading": "Take Our Free Language Test",
+  "testDesc": "This quick and free online test will tell your language level and help choose the best group course",
+  "testBtn": "start now",
+  "folksHeading": "welcome, folks",
+  "folksDesc": "Why Study With Us",
+  "welcomeList": [
+    {
+      "iconImg": "",
+      "heading": "Certification",
+      "desc": "Get certification from a respected organization"
+    },
+    {
+      "iconImg": "",
+      "heading": "Teaching Materials",
+      "desc": "Use modern learning materials for over 15 language courses"
+    },
+    {
+      "iconImg": "",
+      "heading": "Career Upgrade",
+      "desc": "Enhance your professional and academic CV as you travel the world"
+    },
+    {
+      "iconImg": "",
+      "heading": "Superior Accomodation ",
+      "desc": "Over 100 rooms in premium residences and welcoming homestays"
+    }
+  ],
+  "chooseHeading": "Why Choose Us?",
+  "chooseDes": "Simple Reason",
+  "instructorHeading": "Featured Instructors",
+  "instructorDesc": "meet the team",
+  "instructorProfiles": [
+    {
+      "img": "",
+      "name": "Barbara Russell",
+      "title": "Chinese and Greek"
+    },
+    {
+      "img": "",
+      "name": "Brandon Martin",
+      "title": "Italian and French"
+    },
+    {
+      "img": "",
+      "name": "Susan Matthews",
+      "title": "English and Russian"
+    },
+    {
+      "img": "",
+      "name": "William Stanley",
+      "title": "German and Spanish"
+    }
+  ],
+  "testimonialsHeading": "Testimonials",
+  "testimonialsDesc": "client say",
+  "testimonials": [
+    {
+      "testimonialsQuote": "Teachers here are open, patient and very helpful, which represents an asset to learning a language in a friendly environment. Thank you. I have a solid language base that allows me to speak fluently.",
+      "testimonialsProfileImg": "",
+      "clientName": "Emma Boston",
+      "clientStatus": "student"
+    },
+    {
+      "testimonialsQuote": "Teachers here are open, patient and very helpful, which represents an asset to learning a language in a friendly environment. Thank you. I have a solid language base that allows me to speak fluently.",
+      "testimonialsProfileImg": "",
+      "clientName": "Alina Dhuniya",
+      "clientStatus": "Teacher"
+    },
+    {
+      "testimonialsQuote": "Teachers here are open, patient and very helpful, which represents an asset to learning a language in a friendly environment. Thank you. I have a solid language base that allows me to speak fluently.",
+      "testimonialsProfileImg": "",
+      "clientName": "Asmita Sharma",
+      "clientStatus": "student"
+    }
+  ],
+  "programsHeading": "Programs",
+  "programsDesc": "what we offer",
+  "programsList": [
+    {
+      "heading": "IELTS/TOEFL Preparation",
+      "desc": "The International English Language Testing System,[6] or IELTS (/ˈaɪ.ɛlts/), is an international standardised test of English language proficiency for non-native English language speakers. It is jointly managed by the British Council, IDP: IELTS Australia and Cambridge Assessment English,[6] and was established in 1989. IELTS is one of the major English-language tests in the world, others being the TOEFL, TOEIC, PTE:A, and OPI/OPIc.",
+      "btn": "read more"
+    },
+    {
+      "heading": "Middle East Arabic Accent",
+      "desc": "The Arabic accents materials include recordings of AccentHelp coach Jim Johnson guiding you through the basics of accents throughout the region surrounding the Middle East and Northern Africa using the text, including tracks of Jim leading you through a monologue in the accent, and additional examples of speaking with the accent from coach Carolyn Johnson.",
+      "btn": "read more"
+    },
+    {
+      "heading": "Assian Accents",
+      "desc": "A number of distinct dialects of English are spoken in South Asia. There are many languages spoken in South Asia like Nepali, Hindi, Punjabi, Rajasthani, Sindhi, Balochi, Pashto, Assamese, Bengali, Gujarati, Kannada, Kashmiri, Marathi, Odia, Maithili, Malayalam, Sinhala, Tamil, Telugu, Tulu, Urdu and many more, creating a variety of accents of English. Accents originating in this part of the world tend to display several distinctive features, including:",
+      "btn": "read more"
+    },
+    {
+      "heading": "African Accents",
+      "desc": "South African accents also vary between major cities (particularly Cape Town, Durban and Johannesburg) and provinces (regions).[17] Accent variation is also observed within respective cities—for instance, Johannesburg, where the northern suburbs (Parkview, Parkwood, Parktown North, Saxonwold, etc.) tend to be less strongly influenced by Afrikaans. These suburbs are more affluent and populated by individuals.",
+      "btn": "read more"
+    }
+  ],
+  "professionalsImg": "",
+  "professionalsHeading": "Language Courses For Professionals",
+  "professionalsDesc": "Our qualified and experienced language trainers created special programmes to meet your specific needs.",
+  "professionalsBtn": "start now",
+  "coursesHeading": "upcoming courses",
+  "coursesDes": "wait for a while",
+  "coursesList": [
+    {
+      "img": "",
+      "price": "$620",
+      "heading": "General English Fluency",
+      "btn": "book now"
+    },
+    {
+      "img": "",
+      "price": "$385",
+      "heading": "Crash Course for Travellers",
+      "btn": "book now"
+    },
+    {
+      "img": "",
+      "price": "$415",
+      "heading": "Spanish Past Tennis Review",
+      "btn": "book now"
+    }
+  ],
+  "scheduleHeading": "Schedule",
+  "scheduleList": [
+    {
+      "heading": "Standard General English",
+      "desc": "Standard General English Course for Adults",
+      "weeks": [
+        {
+          "week0": "1-11 weeks $195"
+        },
+        {
+          "week1": "1-11 weeks $195"
+        },
+        {
+          "week2": "1-11 weeks $195"
+        },
+        {
+          "week3": "1-11 weeks $195"
+        }
+      ],
+      "lessonPerWeek": "20 lessons/week",
+      "btn": "start now"
+    },
+    {
+      "heading": "Intensive General English",
+      "desc": "Standard General English Course for Adults",
+      "weeks": [
+        {
+          "week0": "1-11 weeks $195"
+        },
+        {
+          "week1": "1-11 weeks $195"
+        },
+        {
+          "week2": "1-11 weeks $195"
+        },
+        {
+          "week3": "1-11 weeks $195"
+        }
+      ],
+      "lessonPerWeek": "30 lessons/week",
+      "btn": "start now"
+    },
+    {
+      "heading": "FCE Exam Preparation Standard 13 Weeks",
+      "desc": "Standard General English Course for Adults",
+      "weeks": [
+        {
+          "week0": "1-11 weeks $195"
+        },
+        {
+          "week1": "1-11 weeks $195"
+        },
+        {
+          "week2": "1-11 weeks $195"
+        },
+        {
+          "week3": "1-11 weeks $195"
+        }
+      ],
+      "lessonPerWeek": "26 lessons/week",
+      "btn": "start now"
+    },
+    {
+      "heading": "Young Learner Teacher Training",
+      "desc": "Standard General English Course for Adults",
+      "weeks": [
+        {
+          "week0": "1-11 weeks $195"
+        },
+        {
+          "week1": "1-11 weeks $195"
+        },
+        {
+          "week2": "1-11 weeks $195"
+        },
+        {
+          "week3": "1-11 weeks $195"
+        }
+      ],
+      "lessonPerWeek": "20 lessons/week",
+      "btn": "start now"
+    }
+  ],
+  "trustedHeading": "trusted by",
+  "trustedPartners": [
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    },
+    {
+      "img": ""
+    }
+  ],
+  "appHeading": "download our app",
+  "appDesc": "For Classes and Assignment Updates",
+  "appIcon": "",
+  "contactHeading": "contact",
+  "map": "",
+  "emailIcon": "",
+  "emailBtn": "send email",
+  "footerIcons": [
+    {
+      "icon": ""
+    },
+    {
+      "icon": ""
+    },
+    {
+      "icon": ""
+    },
+    {
+      "icon": ""
+    }
+  ]
 }
