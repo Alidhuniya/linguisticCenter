@@ -33,53 +33,53 @@
       }
     ]
   ],
-  "mainContainerImg": "",
+  "mainContainerImg": "./img/women.svg",
   "containerHeading": "Learn Interaction with Languages",
   "containerBtn": "choose language",
   "chooseLangHeading": "choose language",
   "languages": [
     {
-      "flagImg": "",
+      "flagImg": "./img/nep.svg",
       "flagHeading": " Nepali"
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/emg 1.svg",
       "flagHeading": " English "
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/ch 1.svg",
       "flagHeading": " chinese "
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/de 1.svg",
       "flagHeading": " german"
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/it 1.svg",
       "flagHeading": " italian "
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/sp 1.svg",
       "flagHeading": " spanish "
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/fr 1.svg",
       "flagHeading": " french"
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/ja 1.svg",
       "flagHeading": " japanese"
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/che 1.svg",
       "flagHeading": " chech "
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/por 1.svg",
       "flagHeading": " portugee"
     },
     {
-      "flagImg": "",
+      "flagImg": "./img/india 1.svg",
       "flagHeading": " Hindi"
     }
   ],
@@ -88,8 +88,8 @@
   "aboutParag1": "Each Year from Linguistic Center, around 250 students pass the test and have proper understanding with speaking capabilities. Not only that our institute provides the way ro access foreign visa based on student performance ",
   "aboutLocation": "Rupandehi, Bhairahwa",
   "aboutBtn": "why us",
-  "aboutImg": "",
-  "tourImg": "",
+  "aboutImg": "./img/man.svg",
+  "tourImg": "./img/interiorClass.svg",
   "tourHeading": "Take A Tour of Our Center - Linguistic ",
   "tourDec": "State-of-the-art language learning facilities and online resource",
   "testHeading": "Take Our Free Language Test",
@@ -99,48 +99,83 @@
   "folksDesc": "Why Study With Us",
   "welcomeList": [
     {
-      "iconImg": "",
+      "iconImg": "./img/wel1.svg",
       "heading": "Certification",
       "desc": "Get certification from a respected organization"
     },
     {
-      "iconImg": "",
+      "iconImg": "./img/wel2.svg",
       "heading": "Teaching Materials",
       "desc": "Use modern learning materials for over 15 language courses"
     },
     {
-      "iconImg": "",
+      "iconImg": "./img/wel3.svg",
       "heading": "Career Upgrade",
       "desc": "Enhance your professional and academic CV as you travel the world"
     },
     {
-      "iconImg": "",
+      "iconImg": "./img/wel4.svg",
       "heading": "Superior Accomodation ",
       "desc": "Over 100 rooms in premium residences and welcoming homestays"
     }
   ],
   "chooseHeading": "Why Choose Us?",
   "chooseDes": "Simple Reason",
+  "choose": [
+
+    {
+      "iconImg": "./img/choose1.svg",
+      "heading": "Over 20 Years of Experience",
+      "desc": "In 2000 our centre became an academic department within the school of languages."
+    },
+    {
+      "iconImg": "./img/choose2.svg",
+      "heading": "Exclusive Learning Materials",
+      "desc": "Our learning materials include text with multimedia on all areas of the curriculum."
+    },
+    {
+      "iconImg": "./img/choose3.svg",
+      "heading": "Career Upgrade",
+      "desc": "Learning a new language is a fascinating thing that can lead to great opportunities."
+    },
+    {
+      "iconImg": "./img/choose4.svg",
+      "heading": "Certification",
+      "desc": "At the end of course you will get the certificate and valuable skills and experience."
+    },
+    {
+      "iconImg": "./img/choose5.svg",
+      "heading": "Friendly Learning Environment",
+      "desc": "Our method based on learning a language in a friendly and open atmosphere."
+    },
+    {
+      "iconImg": "./img/choose6.svg",
+      "heading": "Professional Teachers ",
+      "desc": "Our team consist of high-quality and certified teachers with big experience."
+    }
+
+  ],
+
   "instructorHeading": "Featured Instructors",
   "instructorDesc": "meet the team",
   "instructorProfiles": [
     {
-      "img": "",
+      "img": "./img/team1.svg",
       "name": "Barbara Russell",
       "title": "Chinese and Greek"
     },
     {
-      "img": "",
+      "img": "./img/team2.svg",
       "name": "Brandon Martin",
       "title": "Italian and French"
     },
     {
-      "img": "",
+      "img": "./img/team3.svg",
       "name": "Susan Matthews",
       "title": "English and Russian"
     },
     {
-      "img": "",
+      "img": "./img/team4.svg",
       "name": "William Stanley",
       "title": "German and Spanish"
     }
@@ -150,19 +185,19 @@
   "testimonials": [
     {
       "testimonialsQuote": "Teachers here are open, patient and very helpful, which represents an asset to learning a language in a friendly environment. Thank you. I have a solid language base that allows me to speak fluently.",
-      "testimonialsProfileImg": "",
+      "testimonialsProfileImg": "./img/client1.svg",
       "clientName": "Emma Boston",
       "clientStatus": "student"
     },
     {
       "testimonialsQuote": "Teachers here are open, patient and very helpful, which represents an asset to learning a language in a friendly environment. Thank you. I have a solid language base that allows me to speak fluently.",
-      "testimonialsProfileImg": "",
+      "testimonialsProfileImg": "./img/client1.svg",
       "clientName": "Alina Dhuniya",
       "clientStatus": "Teacher"
     },
     {
       "testimonialsQuote": "Teachers here are open, patient and very helpful, which represents an asset to learning a language in a friendly environment. Thank you. I have a solid language base that allows me to speak fluently.",
-      "testimonialsProfileImg": "",
+      "testimonialsProfileImg": "./img/client1.svg",
       "clientName": "Asmita Sharma",
       "clientStatus": "student"
     }
@@ -191,7 +226,7 @@
       "btn": "read more"
     }
   ],
-  "professionalsImg": "",
+  "professionalsImg": "./img/prof.svg",
   "professionalsHeading": "Language Courses For Professionals",
   "professionalsDesc": "Our qualified and experienced language trainers created special programmes to meet your specific needs.",
   "professionalsBtn": "start now",
@@ -199,19 +234,19 @@
   "coursesDes": "wait for a while",
   "coursesList": [
     {
-      "img": "",
+      "img": "./img/course1.svg",
       "price": "$620",
       "heading": "General English Fluency",
       "btn": "book now"
     },
     {
-      "img": "",
+      "img": "./img/course2.svg",
       "price": "$385",
       "heading": "Crash Course for Travellers",
       "btn": "book now"
     },
     {
-      "img": "",
+      "img": "./img/course3.svg",
       "price": "$415",
       "heading": "Spanish Past Tennis Review",
       "btn": "book now"
@@ -303,43 +338,42 @@
   "trustedHeading": "trusted by",
   "trustedPartners": [
     {
-      "img": ""
+      "img": "./img/trust1.svg"
     },
     {
-      "img": ""
+      "img": "./img/trust2.svg"
     },
     {
-      "img": ""
+      "img": "./img/trust3.svg"
     },
     {
-      "img": ""
+      "img": "./img/trust4.svg"
     },
     {
-      "img": ""
+      "img": "./img/trust5.svg"
     },
     {
-      "img": ""
+      "img": "./img/trust6.svg"
     }
   ],
   "appHeading": "download our app",
   "appDesc": "For Classes and Assignment Updates",
-  "appIcon": "",
+  "appIcon": "./img/appIcon.png",
   "contactHeading": "contact",
-  "map": "",
-  "emailIcon": "",
+  "emailIcon": "./img/email.svg",
   "emailBtn": "send email",
   "footerIcons": [
     {
-      "icon": ""
+      "icon": "./img/facebook.svg"
     },
     {
-      "icon": ""
+      "icon": "./img/youtube.svg"
     },
     {
-      "icon": ""
+      "icon": "./img/instagram.svg"
     },
     {
-      "icon": ""
+      "icon": "./img/twitter.svg"
     }
   ]
 }
