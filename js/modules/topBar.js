@@ -12,7 +12,7 @@ export const topBar = async () => {
 
     setTimeout(function(){
         document.getElementById("hide").style.display = "none"; 
-       }, 3000);
+       }, 7000);
 
 }
 

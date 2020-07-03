@@ -32,6 +32,27 @@ export const navBar = async () => {
     }
 
     document.querySelector(".header__rightNav").innerHTML = output;
+
+     // hambergur menu
+
+    // Selection of HTML objects
+    const burger = document.querySelector('.icon');
+    const nav = document.querySelector('.header__rightNav');
+    
+    // Defining a function
+    function toggleNav() {
+        burger.classList.toggle('fa-bars');
+        burger.classList.toggle('fa-times');
+        nav.classList.toggle('header__rightNav');
+    }
+    
+    // Calling the function after click event occurs
+
+
+    if(burger){
+        burger.addEventListener('click', toggleNav, false);
+      }
+   
 }
 
 catch (error) {
@@ -39,3 +60,4 @@ catch (error) {
 }
     
 }
+
