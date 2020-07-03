@@ -10,5 +10,9 @@ export const topBar = async () => {
     document.querySelector(".header__h4").innerHTML = ` ${result.topNav}`;
     
 
+    setTimeout(function(){
+        document.getElementById("hide").style.display = "none"; 
+       }, 3000);
+
 }
 
