@@ -58,3 +58,28 @@
     color: #000;
   }
 }
+
+.header__navBtn {
+  width: 123px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+background: #8C7AE6;
+}
+
+.header__hrfBtn {
+  color: $white;
+  font-size: 0.9rem;
+  letter-spacing: 0.02rem;
+  
+}
+
+.header__navBtn:hover {
+  background: #2A10A9;
+  
+  
+}

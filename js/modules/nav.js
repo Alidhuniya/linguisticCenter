@@ -4,7 +4,7 @@ export const navBar = async () => {
     const data = await fetch (url);
     const res = await data.json();
     const result = res;
-    console.log(result.navBar);
+    // console.log(result.navBar);
 
     document.querySelector(".header__logoSection").innerHTML = ` 
    <div class="header__logo"> 
@@ -27,7 +27,7 @@ export const navBar = async () => {
         <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][4].upcoming}</a></li>
         <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][5].schedule}</a></li>
         <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][6].contact}</a></li>
-        <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][7].phoneNumber}</a></li>
+        <li class="header__navLi header__navBtn"><a class="header__hrfBtn" href="">${result.navBar[1][7].phoneNumber}</a></li>
         `
     }
 
