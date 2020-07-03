@@ -6,7 +6,7 @@ export const navBar = async () => {
     const result = res;
     console.log(result.navBar);
 
-    document.querySelector(".header__leftNav").innerHTML = ` 
+    document.querySelector(".header__logoImg").innerHTML = ` 
    <div class="header__logo"> 
     <div>
     <img class="header__logoImg" src="${result.navBar[0].logoImg}" alt=""> 
