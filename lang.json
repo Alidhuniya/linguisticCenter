@@ -3,7 +3,7 @@
   "topNav": "Every Three Months, site keeps on updating",
   "navBar": [
     {
-      "logoImg": "",
+      "logoImg": "./img/graduation-cap.svg",
       "logoHeading": " Linguistic Center"
     },
     [

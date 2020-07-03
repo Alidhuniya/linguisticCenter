@@ -399,4 +399,11 @@ body {
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+.header__logo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #6ADABC;
+}
 /*# sourceMappingURL=style.css.map */
