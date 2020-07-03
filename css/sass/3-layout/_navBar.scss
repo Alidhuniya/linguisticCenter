@@ -100,17 +100,18 @@ background: #8C7AE6;
 
 @media all and (max-width: 1040px) {
   .burger {
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
     cursor: pointer;
   }
 
   .header__rightNav {
     margin: 0;
-    background: yellow;
+    background: $primaryDark;
     position: absolute;
     right: -100%;
-    top: 70px;
+    top: 125px;
     width: 30%;
     height: calc(100% - 70px);
     flex-direction: column;
@@ -120,15 +121,39 @@ background: #8C7AE6;
     
 }
 
+.header__navLIColor {
+  color: $black !important;
+  border-bottom: 1.5px solid yellow !important;
+  margin-left: 1.8rem;
+}
 
-
-// .header__navLi {
-//   text-align: center;
-// }
+.header__navLi {
+  text-align: center;
+}
 
 
 .nav-active {
   right: 0;
   display: flex;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .header__leftNav {
+    display: block;
+  }
+
+    .burger {
+      display: block;
+      margin-top: 2.3rem;
+      margin-left: 2rem;
+      cursor: pointer;
+    }
+  
+    .header__rightNav {
+      
+      top: 200px;
+    
+      
   }
 }
