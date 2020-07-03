@@ -75,10 +75,7 @@
    * Remove the gray background on active links in IE 10.
    */
   
-  a {
-    background-color: transparent;
-  }
-  
+
   /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -257,6 +254,7 @@
   progress {
     vertical-align: baseline;
   }
+
   
   /**
    * Remove the default vertical scrollbar in IE 10+.
@@ -350,4 +348,18 @@
   
   [hidden] {
     display: none;
+  }
+
+
+  // custom
+  a {
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-color: none;
+  }
+
+
+  
+  ul,ol,li {
+    list-style: none;
   }
