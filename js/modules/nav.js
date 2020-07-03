@@ -43,7 +43,7 @@ export const navBar = async () => {
     function toggleNav() {
         burger.classList.toggle('fa-bars');
         burger.classList.toggle('fa-times');
-        nav.classList.toggle('header__rightNav');
+        nav.classList.toggle('nav-active');
     }
     
     // Calling the function after click event occurs
