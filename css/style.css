@@ -668,4 +668,46 @@ body {
     margin-top: 0.5rem;
   }
 }
+
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container2 {
+  width: 1313px;
+  height: 182px;
+  background: #e6eaec;
+  border: 1px solid #b3b7bb;
+  margin-top: 20rem;
+}
+
+.container2__langHeading {
+  margin-top: 3rem;
+}
+
+.container2__h3 {
+  text-transform: capitalize;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #333946;
+}
+
+.container2__img {
+  width: 59px;
+  height: 35px;
+}
+
+.container2__h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #777E8B;
+}
 /*# sourceMappingURL=style.css.map */

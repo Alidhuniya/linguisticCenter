@@ -5,7 +5,7 @@ export const Section1 = async () => {
     const result = res;
     // console.log(result.mainContainerImg);
 const img = `${result.mainContainerImg}`;
-console.log(img);
+// console.log(img);
     let bgr = document.querySelector(".container__womenImage").style.backgroundImage = `url(${img})`; 
 
     
