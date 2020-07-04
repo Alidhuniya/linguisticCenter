@@ -3,7 +3,7 @@ export const About = async () => {
     const data = await fetch (url);
     const res = await data.json();
     const result = res;
-    console.log(result.aboutHeading);
+    // console.log(result.aboutTeach);
 
     document.querySelector(".container3__h1").innerHTML = `
     ${result.aboutHeading}
@@ -21,11 +21,12 @@ export const About = async () => {
     document.querySelector(".container3__btnBlock").innerHTML = `
     ${result.aboutBtn}
     `
+
     document.querySelector(".container3__right").innerHTML = `
+    <div>
     <img class="container3__rightImg" src="${result.aboutImg}" alt ="teacher teaching">
-    `
-    document.querySelector(".container3__right").innerHTML = `
-    <p>${result.aboutTeach}</p>
+    <p class="container3__rightp0">${result.aboutTeach}</p>
+    </div>
     `
     ;
 }
