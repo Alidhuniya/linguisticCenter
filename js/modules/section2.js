@@ -12,7 +12,7 @@ let output = '';
 
 for (var i in result.languages) {
     output += `
-    <div>
+    <div class="container2__langSection">
          <img class="container2__img" src="${result.languages[i].flagImg}" alt = "flag">
       <h4 class="container2__h4">${result.languages[i].flagHeading}</h4>
          </div>
