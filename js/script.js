@@ -10,6 +10,8 @@ import { Section1 } from "./modules/section1.js";
 import { langList } from "./modules/section2.js";
 // section-3 
 import { About } from "./modules/section3.js";
+// section-4 
+import { Tour } from "./modules/section4.js";
 
 // execution
 
@@ -27,3 +29,6 @@ langList();
 
 // run section-3 
 About();
+
+// run - section4
+Tour();
