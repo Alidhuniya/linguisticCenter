@@ -3,7 +3,7 @@ export const langList = async () => {
     const data = await fetch (url);
     const res = await data.json();
     const result = res;
-      console.log(result.languages);
+      // console.log(result.languages);
 
     const heading = document.querySelector(".container2__h3").innerHTML = `${result.chooseLangHeading}`;
 

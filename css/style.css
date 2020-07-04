@@ -749,8 +749,8 @@ body {
   -webkit-transition: opacity 0.5s ease-out;
   transition: opacity 0.5s ease-out;
   background-position: 0 -200px;
-  -webkit-animation: moveSlideshow 10s linear infinite;
-          animation: moveSlideshow 10s linear infinite;
+  -webkit-animation: moveSlideshow 15s linear infinite;
+          animation: moveSlideshow 15s linear infinite;
 }
 
 @-webkit-keyframes moveSlideshow {
@@ -765,5 +765,15 @@ body {
     -webkit-transform: translateX(-66.6666%);
             transform: translateX(-66.6666%);
   }
+}
+
+.section3 {
+  margin-top: 12rem;
+}
+
+.container3__rightImg {
+  width: 500px;
+  height: 333.2px;
+  border-radius: 35px;
 }
 /*# sourceMappingURL=style.css.map */
