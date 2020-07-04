@@ -1,6 +1,7 @@
+
 .container__womenImage {
     margin-top: 2rem;
-  
+    
 }
 
 .container__h1 {
@@ -39,17 +40,27 @@ cursor: pointer;
     margin-left: 56rem;
 }
 
-.container__section1Img {
-   
+.container__womenImage {
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    height: 48rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+  
+  
 }
+
 
 @media all and (max-width: 1356px) {
     .container__contents {
-    margin-top: -26rem;
-    margin-left: 30rem;
+        margin-top: -47rem;
+        margin-left: 24rem;
+    }
 }
     
-}
+
 
 @media all and(max-width: 1050px ) {
     .container__h1 {
@@ -57,8 +68,8 @@ cursor: pointer;
     }
 
     .container__contents {
-        margin-top: -19rem;
-         margin-left: -2rem;
+        margin-top: -43rem;
+    margin-left: 19rem;
     }
 
     .container__btn {
@@ -71,20 +82,20 @@ cursor: pointer;
    
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 632px) {
     .container__contents {
       
-      margin-top: -10rem;
-    margin-left: 17rem;
+      margin-top: -44rem;
+    margin-left: 2rem;
        
     }
     .container__h1 {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         text-align: center;
     }
 
     .container__btn {
-        margin-left: 3rem;
+        margin-left: 9rem;
         
         font-size: 12px;
         margin-top: 0.5rem;

@@ -145,10 +145,16 @@
    */
   
   img {
-    // border-style: none;
+   
+     display: block;
+     border-style: none;
     max-width: 100%;
     width: 100%;
-     display: block ;
+    
+    
+// position: relative;
+// margin: 0;
+// padding: 0;
    
   }
   

@@ -4,13 +4,11 @@ export const Section1 = async () => {
     const res = await data.json();
     const result = res;
     // console.log(result.mainContainerImg);
+const img = `${result.mainContainerImg}`;
+console.log(img);
+    let bgr = document.querySelector(".container__womenImage").style.backgroundImage = `url(${img})`; 
 
-    document.querySelector(".container__womenImage").innerHTML = `
- 
-    <img class="container__section1Img" src="${result.mainContainerImg}" alt = "women at book sleves" />
-   
-    `;
-
+    
     document.querySelector(".container__h1").innerHTML = `${result.containerHeading}`;
     document.querySelector(".container__btn").innerHTML = `${result.containerBtn}`;
 

@@ -137,9 +137,10 @@ sup {
    * Remove the border on images inside links in IE 10.
    */
 img {
+  display: block;
+  border-style: none;
   max-width: 100%;
   width: 100%;
-  display: block;
 }
 
 /* Forms
@@ -619,10 +620,19 @@ body {
   margin-left: 56rem;
 }
 
+.container__womenImage {
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  height: 48rem;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
 @media all and (max-width: 1356px) {
   .container__contents {
-    margin-top: -26rem;
-    margin-left: 30rem;
+    margin-top: -47rem;
+    margin-left: 24rem;
   }
 }
 
@@ -631,8 +641,8 @@ body {
     font-size: 2rem;
   }
   .container__contents {
-    margin-top: -19rem;
-    margin-left: -2rem;
+    margin-top: -43rem;
+    margin-left: 19rem;
   }
   .container__btn {
     margin-left: 10rem;
@@ -643,17 +653,17 @@ body {
   }
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 632px) {
   .container__contents {
-    margin-top: -10rem;
-    margin-left: 17rem;
+    margin-top: -44rem;
+    margin-left: 2rem;
   }
   .container__h1 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     text-align: center;
   }
   .container__btn {
-    margin-left: 3rem;
+    margin-left: 9rem;
     font-size: 12px;
     margin-top: 0.5rem;
   }
