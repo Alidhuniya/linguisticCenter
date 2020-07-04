@@ -10,7 +10,11 @@ export const Tour = async () => {
         
         const bgImg = document.querySelector(".container4__img").style.backgroundImage = `url(${bgImgURL})`;
 
+        document.querySelector(".container4__h1").innerHTML = `${result.tourHeading}`;
+
+        document.querySelector(".container4__h4").innerHTML = `${result.tourDec}`;
     }
+
 
     catch(error) {
         console.log("Failed", error);
