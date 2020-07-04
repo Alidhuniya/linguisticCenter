@@ -36,7 +36,7 @@
   "mainContainerImg": "./img/women.svg",
   "containerHeading": "Learn Interaction with Languages",
   "containerBtn": "choose language",
-  "chooseLangHeading": "choose language",
+  "chooseLangHeading": "featured language",
   "languages": [
     {
       "flagImg": "./img/nep.svg",

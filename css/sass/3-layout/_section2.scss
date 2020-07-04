@@ -1,7 +1,7 @@
 .section2 {
   display: flex;
   justify-content: center;
-  margin-bottom: 5rem;
+  
 }
 .container2 {
   width: 1313px;
@@ -10,7 +10,8 @@
   border: 1px solid #b3b7bb;
   margin-top: 20rem;
 
-  @media all and (max-width: 668px) {
+ 
+  @media all and (max-width: 815px) {
       height: 250px;
   }
 
@@ -54,7 +55,37 @@ margin-top: 0.5rem;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2rem;
+    
 }
+
+// .container2__langList.active {
+   
+//     cursor: grabbing;
+//     cursor: -webkit-grabbing;
+//     transform: scale(1);
+//   }
+
+
 .container2__langSection {
     margin-top: 1rem;
+ 
 }
+
+.container2__langSection + .container2__langSection  {
+    margin-left: 1rem;
+ 
+}
+
+.container2__langList > div {
+ 
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 10s linear infinite;
+  }
+  
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }

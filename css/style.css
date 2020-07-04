@@ -676,7 +676,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 5rem;
 }
 
 .container2 {
@@ -687,7 +686,7 @@ body {
   margin-top: 20rem;
 }
 
-@media all and (max-width: 668px) {
+@media all and (max-width: 815px) {
   .container2 {
     height: 250px;
   }
@@ -740,5 +739,31 @@ body {
 
 .container2__langSection {
   margin-top: 1rem;
+}
+
+.container2__langSection + .container2__langSection {
+  margin-left: 1rem;
+}
+
+.container2__langList > div {
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  -webkit-animation: moveSlideshow 10s linear infinite;
+          animation: moveSlideshow 10s linear infinite;
+}
+
+@-webkit-keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateX(-66.6666%);
+            transform: translateX(-66.6666%);
+  }
+}
+
+@keyframes moveSlideshow {
+  100% {
+    -webkit-transform: translateX(-66.6666%);
+            transform: translateX(-66.6666%);
+  }
 }
 /*# sourceMappingURL=style.css.map */
