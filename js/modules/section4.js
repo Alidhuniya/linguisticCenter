@@ -13,9 +13,11 @@ export const Tour = async () => {
         document.querySelector(".container4__h1").innerHTML = `${result.tourHeading}`;
 
         document.querySelector(".container4__h4").innerHTML = `${result.tourDec}`;
-        
-      
-        
+
+        document.getElementById("player").addEventListener("click", ()=> {
+            location.href = "https://www.youtube.com/embed/NNamZZsggM4";
+           
+        })
       
     }
 
