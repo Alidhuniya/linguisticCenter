@@ -74,6 +74,15 @@ color: #6ADABC;
 
 .container6__img {
     text-align: center;
+    width: 183px;
+height: 183px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #E6EAEC;
+border: 1px solid #B3B7BB;
+
 }
 
 .container6__p1 {
@@ -93,4 +102,15 @@ color: #000000;
     margin-left: 1rem;
 
    
+}
+
+.container6__img:hover {
+    background-color: #24C298;
+    .container6__iconSize:hover {
+        background: $white;
+        width: 70px;
+        height: 68px;
+        border-radius: 50%;
+    }
+    
 }
