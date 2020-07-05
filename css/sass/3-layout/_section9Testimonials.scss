@@ -25,6 +25,10 @@ text-align: center;
 color: #000000;
 }
 
+.container9__testimonials {
+    margin-top: 9rem;
+}
+
 .container9__img, .container9__img1, .container9__img2 {
     width: 150px;
 height: 150px;
@@ -53,10 +57,10 @@ h4 {
 }
 
 .testimonial-carousel {
-	background-image: url("https://images.unsplash.com/photo-1489347215392-cee3b4f539aa?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	// background-image: url("https://images.unsplash.com/photo-1489347215392-cee3b4f539aa?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	// background-position: center;
 	overflow: hidden;
 	height: 500px;
 	position: relative;
@@ -76,7 +80,7 @@ h4 {
 			padding: 0 10px;
 		}
 		span.lnr {
-			color: #dadada;
+			color: #777E8B;
 			font-size: 1.6em;
 			cursor: pointer;
 			transition: color 0.3s linear;
@@ -84,7 +88,7 @@ h4 {
 				font-size: 2.6em;
 			}
 			&:hover {
-				color: #fff;
+				color: #333946;
 			}
 		}
 	}
@@ -92,7 +96,7 @@ h4 {
 		font-family: 'Bad Script', cursive;
 		font-size: 1em;
 		@media (min-width: 768px) {
-			font-size: 1.4em;
+			font-size: 2.4em;
 		}
 	}
 }
@@ -125,4 +129,57 @@ h4 {
 	&.third {
 		left: 200%;
 	}
+}
+
+// custom testimonial style
+.container9__say {
+    font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 38px;
+/* or 154% */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+.container9__p1 {
+    font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 15px;
+/* or 60% */
+
+text-align: center;
+letter-spacing: 0.065em;
+
+color: #000000;
+}
+
+.container9__p2 {
+    font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 15px;
+/* or 83% */
+
+
+text-align: center;
+letter-spacing: 0.065em;
+
+color: #000000;
+}
+
+blockquote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container9__img,.container9__img1,.container9__img2 {
+    margin-top: 3rem;
 }

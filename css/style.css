@@ -1432,6 +1432,10 @@ body {
   color: #000000;
 }
 
+.container9__testimonials {
+  margin-top: 9rem;
+}
+
 .container9__img, .container9__img1, .container9__img2 {
   width: 150px;
   height: 150px;
@@ -1461,10 +1465,6 @@ h4 {
 }
 
 .testimonial-carousel {
-  background-image: url("https://images.unsplash.com/photo-1489347215392-cee3b4f539aa?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   overflow: hidden;
   height: 500px;
   position: relative;
@@ -1502,7 +1502,7 @@ h4 {
 }
 
 .testimonial-carousel .icon-container span.lnr {
-  color: #dadada;
+  color: #777E8B;
   font-size: 1.6em;
   cursor: pointer;
   -webkit-transition: color 0.3s linear;
@@ -1516,7 +1516,7 @@ h4 {
 }
 
 .testimonial-carousel .icon-container span.lnr:hover {
-  color: #fff;
+  color: #333946;
 }
 
 .testimonial-carousel p {
@@ -1526,7 +1526,7 @@ h4 {
 
 @media (min-width: 768px) {
   .testimonial-carousel p {
-    font-size: 1.4em;
+    font-size: 2.4em;
   }
 }
 
@@ -1574,5 +1574,58 @@ h4 {
 
 .testimonial-item.third {
   left: 200%;
+}
+
+.container9__say {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+  /* or 154% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.container9__p1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 15px;
+  /* or 60% */
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #000000;
+}
+
+.container9__p2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 15px;
+  /* or 83% */
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #000000;
+}
+
+blockquote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container9__img, .container9__img1, .container9__img2 {
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
