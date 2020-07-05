@@ -18,6 +18,8 @@ import { Test } from "./modules/section5.js";
 import { Wlcm } from "./modules/section6.js";
 // section - 7
 import { Choose } from "./modules/section7Choose.js";
+// section -8 
+import { Team } from "./modules/section8Team.js";
 
 // execution
 
@@ -47,3 +49,6 @@ Wlcm();
 
 // run section - 7
 Choose();
+
+// run section - 8
+Team();
