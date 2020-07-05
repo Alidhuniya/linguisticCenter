@@ -16,6 +16,8 @@ import { Tour } from "./modules/section4.js";
 import { Test } from "./modules/section5.js";
 // section6.js
 import { Wlcm } from "./modules/section6.js";
+// section - 7
+import { Choose } from "./modules/section7Choose.js";
 
 // execution
 
@@ -42,3 +44,6 @@ Test();
 
 // run - section6
 Wlcm();
+
+// run section - 7
+Choose();
