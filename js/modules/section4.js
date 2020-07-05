@@ -13,6 +13,10 @@ export const Tour = async () => {
         document.querySelector(".container4__h1").innerHTML = `${result.tourHeading}`;
 
         document.querySelector(".container4__h4").innerHTML = `${result.tourDec}`;
+        
+      
+        
+      
     }
 
 
@@ -20,3 +24,6 @@ export const Tour = async () => {
         console.log("Failed", error);
     }
 }
+
+
+

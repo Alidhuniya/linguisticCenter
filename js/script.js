@@ -12,6 +12,8 @@ import { langList } from "./modules/section2.js";
 import { About } from "./modules/section3.js";
 // section-4 
 import { Tour } from "./modules/section4.js";
+// section-5 
+import { Test } from "./modules/section5.js";
 
 // execution
 
@@ -32,3 +34,6 @@ About();
 
 // run - section4
 Tour();
+
+// run - section5
+Test();
