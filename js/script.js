@@ -14,6 +14,8 @@ import { About } from "./modules/section3.js";
 import { Tour } from "./modules/section4.js";
 // section-5 
 import { Test } from "./modules/section5.js";
+// section6.js
+import { Wlcm } from "./modules/section6.js";
 
 // execution
 
@@ -37,3 +39,6 @@ Tour();
 
 // run - section5
 Test();
+
+// run - section6
+Wlcm();
