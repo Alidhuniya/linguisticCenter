@@ -2107,4 +2107,54 @@ blockquote {
 .container13__scheduleList {
   margin-top: 3rem;
 }
+
+.section14 {
+  margin-top: 10rem;
+  margin-left: 7.5rem;
+  margin-right: 7.5rem;
+}
+
+.container14__h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #6ADABC;
+}
+
+.container14__companies {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media all and (max-width: 500px) {
+  .container14__companies {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.container14__imgs {
+  width: 82px;
+  height: 83px;
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

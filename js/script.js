@@ -30,6 +30,8 @@ import { Professionals } from "./modules/section11Professionals.js";
 import { Courses } from "./modules/section12Courses.js";
 // section -13 
 import { Time } from "./modules/section13Time.js";
+// section - 14
+import { Trust } from "./modules/section14Trust.js";
 
 // execution
 
@@ -77,3 +79,6 @@ Courses();
 
 // run section - 13
 Time();
+
+// run section - 14
+Trust();
