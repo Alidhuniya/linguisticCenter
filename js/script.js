@@ -28,6 +28,8 @@ import { Programs } from "./modules/section10Program.js";
 import { Professionals } from "./modules/section11Professionals.js";
 // section - 12
 import { Courses } from "./modules/section12Courses.js";
+// section -13 
+import { Time } from "./modules/section13Time.js";
 
 // execution
 
@@ -72,3 +74,6 @@ Professionals();
 
 // run section - 12
 Courses();
+
+// run section - 13
+Time();
