@@ -4,7 +4,7 @@ export const Programs = async () => {
         const data = await fetch (url);
         const res = await data.json();
         const result = res;
-        console.log(result.programsList);
+       // console.log(result.programsList);
         document.querySelector(".container10__h1").innerHTML = `
         ${result.programsHeading}
         `;
