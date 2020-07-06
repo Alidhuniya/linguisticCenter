@@ -24,6 +24,8 @@ import { Team } from "./modules/section8Team.js";
 import { Testimonials } from "./modules/section9Testimonials.js";
 // section - 10 
 import { Programs } from "./modules/section10Program.js";
+// section - 11
+import { Professionals } from "./modules/section11Professionals.js";
 
 // execution
 
@@ -62,3 +64,6 @@ Testimonials();
 
 // run section - 10
 Programs();
+
+// run section - 11 
+Professionals();
