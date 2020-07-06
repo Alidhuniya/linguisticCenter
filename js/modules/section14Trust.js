@@ -14,6 +14,7 @@ export const Trust = async () => {
 
         for (var i in result.trustedPartners) {
             output += `
+            
            <img class="container14__imgs" src="${result.trustedPartners[i].img}" alt="trustedPartners">
             `;
         }
