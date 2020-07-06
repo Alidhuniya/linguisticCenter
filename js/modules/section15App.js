@@ -15,7 +15,9 @@ export const App = async () => {
        `
         document.querySelector(".container15__img").src = `${result.appIcon}`;
        
-
+        document.querySelector(".container15__img").addEventListener("click", ()=> {
+            location.href="https://play.google.com/store/apps/details?id=livio.pack.lang.en_US&hl=en";
+        })
     }
 
 

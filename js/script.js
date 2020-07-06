@@ -34,6 +34,8 @@ import { Time } from "./modules/section13Time.js";
 import { Trust } from "./modules/section14Trust.js";
 // section -15 
 import { App } from "./modules/section15App.js";
+// section - 16
+import { Contact } from "./modules/section16Contact.js";
 
 // execution
 
@@ -87,3 +89,6 @@ Trust();
 
 // run section -15
 App();
+
+// run section 16
+Contact();

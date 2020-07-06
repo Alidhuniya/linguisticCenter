@@ -6,10 +6,17 @@ export const Contact = async () => {
         const result = res;
         // console.log(result.scheduleList[0].heading)
 
-        document.querySelector(".container15__h1").innerHTML = `
-        ${result.appHeading}
+        document.querySelector(".container16__h1").innerHTML = `
+        ${result.contactHeading}
         `;
 
+        document.querySelector(".container16__img").src = `
+        ${result.emailIcon}
+        `;
+
+        document.querySelector(".container16__btnBlock").innerHTML=`
+        ${result.emailBtn}
+        `;
        
        
 
