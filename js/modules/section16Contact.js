@@ -18,7 +18,9 @@ export const Contact = async () => {
         ${result.emailBtn}
         `;
        
-       
+        document.querySelector(".container16__btn").addEventListener("click", ()=> {
+            location.href = "mailto: alidhuniya@gmail.com";
+        });
 
     }
 
