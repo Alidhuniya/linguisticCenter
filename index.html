@@ -48,7 +48,7 @@
     <!-- End - Header -->
 
     <!-- Main -->
-    <main class="main">
+    <main id="home" class="main">
       <!-- section-1 -->
       <section id="container">
         <!-- women - image -->
@@ -82,7 +82,7 @@
       <!-- End Section-2 -->
 
       <!-- about-section-3 -->
-      <section class="section3">
+      <section id="about" class="section3">
         <!-- container-3 -->
         <div class="container3">
           <!-- left -->
@@ -108,7 +108,7 @@
       <!-- End about-section-3 -->
 
       <!-- Tour -->
-      <section class="section4">
+      <section id="whyUs" class="section4">
         <!-- container - 4 -->
         <div class="container4">
           <!-- back img -->
@@ -257,7 +257,7 @@
 
 
       <!-- programs -->
-      <section class="section10">
+      <section id="programs" class="section10">
         <!-- container - 10 -->
         <div class="container10">
           <h1 class="container10__h1"></h1>
@@ -303,7 +303,7 @@
       <!-- End professionals -->
 
       <!-- courses -->
-      <section class="courses">
+      <section id="upcoming" class="courses">
         <!-- container-12 -->
         <div class="container12">
           <h1 class="container12__h1"></h1>
@@ -318,7 +318,7 @@
     </section>
 
     <!-- Schedule -->
-    <section class="section13">
+    <section id="schedule" class="section13">
       <!-- container 13 -->
       <div class="container13">
         <h1 class="container13__h1"></h1>
@@ -356,7 +356,7 @@
     <!-- End - Trust -->
 
     <!-- Contact -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <!-- container 16 -->
       <div class="container16">
         <h1 class="container16__h1"></h1>
@@ -375,7 +375,7 @@
     
     <!-- footer -->
 
-   <footer class="footer">
+   <footer id="footer" class="footer">
 
 
     <!-- navBar -->
@@ -401,6 +401,28 @@
 
   </footer>
     <!-- End footer -->
+
+    <script type="text/javascript">
+      (function() {
+          var options = {
+              facebook: "108153734298160", // Facebook page ID
+              call_to_action: "Message us", // Call to action
+              position: "right", // Position may be 'right' or 'left'
+          };
+          var proto = document.location.protocol,
+              host = "whatshelp.io",
+              url = proto + "//static." + host;
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function() {
+              WhWidgetSendButton.init(host, proto, options);
+          };
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+      })();
+  </script>
 <script async type="module" src="js/script.js"></script>
   </body>
 </html>
