@@ -359,7 +359,6 @@ ul, ol, li {
   padding: 0;
   scroll-behavior: smooth;
   scroll-margin-top: 100px;
-  overflow-x: hidden;
 }
 
 *,
@@ -369,7 +368,6 @@ ul, ol, li {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 html {
