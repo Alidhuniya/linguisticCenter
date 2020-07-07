@@ -49,8 +49,6 @@ hr {
   /* 1 */
   height: 0;
   /* 1 */
-  overflow: visible;
-  /* 2 */
 }
 
 /**
@@ -168,12 +166,6 @@ textarea {
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */
-button,
-input {
-  /* 1 */
-  overflow: visible;
-}
-
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
@@ -254,10 +246,6 @@ progress {
 /**
    * Remove the default vertical scrollbar in IE 10+.
    */
-textarea {
-  overflow: auto;
-}
-
 /**
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
@@ -371,7 +359,6 @@ ul, ol, li {
 }
 
 html {
-  overflow-x: hidden;
   font-size: 15px;
   vertical-align: baseline;
   scroll-behavior: smooth;
@@ -382,6 +369,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   vertical-align: inherit;
+  overflow-x: hidden;
 }
 
 .header__topBar {
