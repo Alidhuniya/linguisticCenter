@@ -157,6 +157,14 @@ height: 24px;
 cursor: pointer;
 }
 
+@media all and (max-width: 500px) {
+  .header__footer-leftNav,   .header__footer-rightNav {
+ 
+    margin-left: 0rem;
+  }
+
+}
+
 
 
 

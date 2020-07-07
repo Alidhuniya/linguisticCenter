@@ -112,3 +112,26 @@ color: #000000;
         margin-left: 0rem;
     }
 }
+
+@media all and (max-width: 700px) {
+  .container7 {
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.container7__h1 {
+
+  font-size: 23px;
+  
+}
+
+.container7__p0 {
+ 
+  margin-top: -1rem;
+  
+}
+.container7__choose {
+  margin-top: 5rem;
+}
+}

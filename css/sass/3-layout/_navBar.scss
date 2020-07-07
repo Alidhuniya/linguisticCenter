@@ -157,3 +157,27 @@ background: #8C7AE6;
       
   }
 }
+
+@media all and (max-width: 500px) {
+
+.header__leftNav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__leftNav {
+   
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 0rem;
+  
+}
+.burger {
+  display: block;
+  margin-top: 2.3rem;
+   margin-left: 0rem; 
+  cursor: pointer;
+}
+}

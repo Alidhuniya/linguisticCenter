@@ -113,3 +113,27 @@ background: #8C7AE6;
     align-items: center;
     
 }
+
+@media all and (max-width: 500px) {
+  .courses {
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.container12__h1 {
+  
+  font-size: 20px;
+ 
+}
+.container12__p0 {
+ 
+  font-size: 16px;
+  
+  margin-top: 0rem;
+  
+}
+
+.container12__coursesSection {
+  margin-top: 3rem;
+}
+}

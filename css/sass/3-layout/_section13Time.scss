@@ -114,3 +114,15 @@ background: #8C7AE6;
 .container13__scheduleList {
     margin-top: 3rem;
 }
+
+@media all and (max-width: 500px) {
+    .section13 {
+         margin-left: 0rem; 
+         margin-right: 0rem; 
+        margin-top: 4rem;
+    }
+
+    .container13__schedule {
+        margin-top: 0rem;
+    }
+}

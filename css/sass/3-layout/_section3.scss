@@ -124,3 +124,40 @@
          }
      }
   
+
+     @media all and (max-width: 500px) {
+        .section3 {
+            margin-top: 3rem;
+           
+                margin-left: 1.7rem;
+                margin-right: 1.7rem;
+            
+            
+          }
+
+          .container3__h1 {
+           
+            font-size: 36px;
+            
+        }
+
+        .container3__btnBlock {
+            width: 50%;
+           
+            height: 38px;
+            font-size: 22px;
+            color: #fff;
+           
+        }
+
+        .container3__btn {
+            margin-top: 2rem;
+        }
+
+        .container3__rightp0 {
+          
+            font-size: 16px;
+           
+            margin-top: -1rem;
+        }
+     }

@@ -65,3 +65,20 @@ border: none;
 .container11__btnBlock:focus {
     outline: none;
 }
+
+@media all and (max-width: 500px) {
+  .container11__container {
+    margin-top: -32rem;
+  }
+
+  .container11__h1 {
+    
+    font-size: 28px;
+    
+}
+.container11__h4 {
+  
+  font-size: 1rem;
+  
+}
+}

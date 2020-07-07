@@ -57,3 +57,21 @@
   margin: 1.3rem 2rem 1.3rem 3rem;
 }
 
+@media all and (max-width: 500px) {
+  .section4 {
+    margin-top: 3rem;
+}
+
+.container4__h1 {
+  
+  font-size: 30px;
+ 
+}
+
+.container4__h4 {
+  
+  font-size: 1rem;
+  
+}
+}
+

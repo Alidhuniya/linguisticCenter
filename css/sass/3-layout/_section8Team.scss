@@ -84,3 +84,24 @@ margin-top: 0.3rem;
 color: #000000;
 margin-left: 2rem;
 }
+
+@media all and (max-width: 600px) {
+    .section8 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 7rem;
+    }
+
+    .container8__h1 {
+        font-size: 1rem;
+    }
+    .container8__p0 {
+       
+        margin-top: 0rem;
+        
+    }
+
+    .container8__team {
+        margin-top: 4rem;
+    }
+}

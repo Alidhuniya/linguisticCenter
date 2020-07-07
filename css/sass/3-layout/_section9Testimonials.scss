@@ -184,4 +184,15 @@ blockquote {
     margin-top: 3rem;
 }
 
+@media all and (max-width: 500px) {
+	.section9 {
+		margin-top: 5rem;
+	}
+
+	.container9__testimonials {
+		margin-top: 5rem;
+	}
+	
+}
+
 // pause on hover

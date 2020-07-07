@@ -159,3 +159,14 @@ background: #8C7AE6;
       
       }
 }
+
+@media all and (max-width: 500px) {
+  .section10 {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3.5rem;
+}
+.container10__programsList {
+  margin-top: 1rem;
+}
+}
