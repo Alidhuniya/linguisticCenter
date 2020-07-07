@@ -1511,7 +1511,7 @@ h4 {
   }
 }
 
-.testimonial-carousel .icon-container span.lnr {
+.testimonial-carousel .icon-container .testIcon {
   color: #777E8B;
   font-size: 1.6em;
   cursor: pointer;
@@ -1520,12 +1520,12 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  .testimonial-carousel .icon-container span.lnr {
+  .testimonial-carousel .icon-container .testIcon {
     font-size: 2.6em;
   }
 }
 
-.testimonial-carousel .icon-container span.lnr:hover {
+.testimonial-carousel .icon-container .testIcon:hover {
   color: #333946;
 }
 
@@ -1594,7 +1594,7 @@ h4 {
   /* or 154% */
   text-align: center;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: #7a7878;
 }
 
 .container9__p1 {

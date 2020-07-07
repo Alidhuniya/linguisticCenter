@@ -62,7 +62,7 @@ export const Testimonials = async () => {
         "use strict";
         var slides = document.querySelectorAll(".testimonial-item"),
             button = document.getElementById("button"),
-            arrows = document.querySelectorAll(".lnr"),
+            arrows = document.querySelectorAll(".testIcon"),
             carouselCount = 0,
             scrollInterval,
             interval = 7000;
