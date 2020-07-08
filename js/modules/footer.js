@@ -1,11 +1,12 @@
 
 export const Footer = async () => {
   try {
+
     const url = "https://alidhuniya.github.io/linguisticCenter/lang.json";
     const data = await fetch (url);
     const res = await data.json();
     const result = res;
-  console.log(result.navBar[0].logoImg);
+  // console.log(result.navBar[0].logoImg);
 
   document.querySelector(".header__footer-logoSection").innerHTML = `
 

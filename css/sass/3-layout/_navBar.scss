@@ -108,15 +108,21 @@ background: #8C7AE6;
 
   .header__rightNav {
     margin: 0;
-    background: $primaryDark;
+    background: #24C298;
     position: absolute;
     right: -100%;
     top: 125px;
+    display: none;
     width: 30%;
     height: calc(100% - 70px);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     padding: 0;
+    -webkit-transition: all 400ms;
     transition: all 400ms;
     
 }
@@ -165,19 +171,16 @@ background: #8C7AE6;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-
-.header__leftNav {
-   
-    display: flex;
     margin-top: 2.5rem;
     margin-left: 0rem;
-  
 }
+
+
 .burger {
   display: block;
   margin-top: 2.3rem;
    margin-left: 0rem; 
   cursor: pointer;
 }
+
 }
