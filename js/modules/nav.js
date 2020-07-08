@@ -1,3 +1,16 @@
+/*
+@Anurag Hazra  so you mean, I should leave like that
+@alidhuniya yeah thats totally fine.. even if you modularize it will be just one line shorter.
+*/
+// const fetcher = async = (url) => {
+//     const res = await fetch(url);
+//     return await res.json();
+//  }
+ 
+//  fetcher('https://jsonplaceholder.typicode.com/todos/1').then(data => {
+//     console.log(data)
+//  })
+
 export const navBar = async () => {
     try {
     const url = "https://alidhuniya.github.io/linguisticCenter/lang.json";
