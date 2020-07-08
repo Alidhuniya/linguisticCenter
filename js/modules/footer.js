@@ -23,14 +23,14 @@ export const Footer = async () => {
 
    for (let i in result.navBar[1][0]) {
        output += `
-       <li class="header__navLi "><a class="header__hrf header__navLIColor" href="">${result.navBar[1][0].home}</a></li>
-       <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][1].about}</a></li>
-       <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][2].whyUs}</a></li>
-       <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][3].programs}</a></li>
-       <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][4].upcoming}</a></li>
-       <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][5].schedule}</a></li>
-       <li class="header__navLi"><a class="header__hrf" href="">${result.navBar[1][6].contact}</a></li>
-       <li class="header__navLi header__navBtn"><a class="header__hrfBtn" href="">${result.navBar[1][7].phoneNumber}</a></li>
+       <li class="header__navLi "><a class="header__hrf header__navLIColor" href="#home">${result.navBar[1][0].home}</a></li>
+       <li class="header__navLi"><a class="header__hrf" href="#about">${result.navBar[1][1].about}</a></li>
+       <li class="header__navLi"><a class="header__hrf" href="#whyUs">${result.navBar[1][2].whyUs}</a></li>
+       <li class="header__navLi"><a class="header__hrf" href="#programs">${result.navBar[1][3].programs}</a></li>
+       <li class="header__navLi"><a class="header__hrf" href="#upcoming">${result.navBar[1][4].upcoming}</a></li>
+       <li class="header__navLi"><a class="header__hrf" href="#schedule">${result.navBar[1][5].schedule}</a></li>
+       <li class="header__navLi"><a class="header__hrf" href="#contact">${result.navBar[1][6].contact}</a></li>
+       <li class="header__navLi header__navBtn"><a class="header__hrfBtn" href="#footer">${result.navBar[1][7].phoneNumber}</a></li>
        `
    }
 
