@@ -26,13 +26,14 @@ color: #6ADABC;
     align-items: center;
 
     padding-left: 7.5rem;
-    padding-right: 7.5rem;
+    // padding-right: 7.5rem;
 
     @media all and (max-width: 500px) {
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding-left: 0rem;
+        padding-right: 7.5rem;
     }
 
     width: 100%;
