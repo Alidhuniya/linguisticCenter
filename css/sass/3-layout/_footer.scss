@@ -7,9 +7,7 @@
     justify-content: center;
     align-items: center;
   }
-
 }
-
 
 .header__footer-leftNav {
   display: flex;
@@ -94,46 +92,40 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 
-background: #8C7AE6;
+  background: #8c7ae6;
 }
 
 .header__hrfBtn {
   color: #fff;
   font-size: 0.9rem;
   letter-spacing: 0.02rem;
-  
 }
 
 .header__navBtn:hover {
-  background: #2A10A9;
-  
-  
+  background: #2a10a9;
 }
 // icons
 .footer {
   height: 227px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background: #E6EAEC;
-margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e6eaec;
+  margin-top: 12rem;
 
+  @media all and (max-width: 1488px) {
+    height: 350px;
+  }
 
-@media all and (max-width: 1488px) {
-  height: 350px;
-}
+  @media all and (max-width: 830px) {
+    height: 450px;
+  }
 
-@media all and (max-width: 830px) {
-  height: 450px;
-}
-
-@media all and (max-width: 470px) {
-  height: 550px;
-  
-}
+  @media all and (max-width: 470px) {
+    height: 550px;
+  }
 }
 
 .footer__icons {
@@ -153,24 +145,13 @@ margin-top: 12rem;
 
 .footer__socialIcons {
   width: 22px;
-height: 24px;
-cursor: pointer;
+  height: 24px;
+  cursor: pointer;
 }
 
 @media all and (max-width: 500px) {
-  .header__footer-leftNav,   .header__footer-rightNav {
- 
+  .header__footer-leftNav,
+  .header__footer-rightNav {
     margin-left: 0rem;
   }
-
 }
-
-
-
-
-
-
-
-
-
-

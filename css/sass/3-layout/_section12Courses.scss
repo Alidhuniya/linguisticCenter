@@ -67,51 +67,50 @@
 }
 
 .container12__p {
-    font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-margin-top: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  margin-top: 2rem;
 
-text-align: center;
+  text-align: center;
 
-color: #000000;
+  color: #000000;
 }
 
 .container12__btn {
-    margin-top: 1.7rem;
+  margin-top: 1.7rem;
 }
 
 .container12__btnBlock {
-    width: 127px;
-height: 36px;
+  width: 127px;
+  height: 36px;
 
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-border: none;
-text-align: center;
-text-transform: capitalize;
-cursor: pointer;
-color: #FFFFFF;
-background: #8C7AE6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #ffffff;
+  background: #8c7ae6;
 }
 .container12__btnBlock:focus {
-    outline: none;
+  outline: none;
 }
 
 .container12__course {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .container12__contentsList {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media all and (max-width: 500px) {
@@ -119,30 +118,25 @@ background: #8C7AE6;
     margin-top: 11rem;
     margin-left: 3rem;
     margin-right: 3rem;
-}
-.container12__h1 {
-  
-  font-size: 20px;
- 
-}
-.container12__p0 {
- 
-  font-size: 16px;
-  
-  margin-top: 0rem;
-  
-}
+  }
+  .container12__h1 {
+    font-size: 20px;
+  }
+  .container12__p0 {
+    font-size: 16px;
 
-.container12__coursesSection {
-  margin-top: 3rem;
-}
+    margin-top: 0rem;
+  }
 
-.container12__img {
-  width: 320px;
-  height: 171px;
-}
-.container12__contents {
-  width: 320px;
-  
-}
+  .container12__coursesSection {
+    margin-top: 3rem;
+  }
+
+  .container12__img {
+    width: 320px;
+    height: 171px;
+  }
+  .container12__contents {
+    width: 320px;
+  }
 }

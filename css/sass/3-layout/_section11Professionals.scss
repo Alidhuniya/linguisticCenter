@@ -19,30 +19,29 @@
 }
 
 .container11__h1 {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 141.19%;
-    /* or 68px */
-    
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 141.19%;
+  /* or 68px */
 
-    text-align: center;
-    letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
 }
 
 .container11__h4 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 141.19%;
-    /* or 34px */
-    max-width: 50ch;
-    text-align: center;
-    letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 141.19%;
+  /* or 34px */
+  max-width: 50ch;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
 }
 
 .container11__btnBlock {
@@ -53,17 +52,17 @@
   font-size: 24px;
   line-height: 141.19%;
   /* or 34px */
-  background: #8C7AE6;
+  background: #8c7ae6;
   text-align: center;
   letter-spacing: 0.05em;
-border: none;
+  border: none;
   color: #ffffff;
   text-transform: capitalize;
   margin-top: 7rem;
 }
 
 .container11__btnBlock:focus {
-    outline: none;
+  outline: none;
 }
 
 @media all and (max-width: 500px) {
@@ -72,13 +71,9 @@ border: none;
   }
 
   .container11__h1 {
-    
     font-size: 28px;
-    
-}
-.container11__h4 {
-  
-  font-size: 1rem;
-  
-}
+  }
+  .container11__h4 {
+    font-size: 1rem;
+  }
 }
