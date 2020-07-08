@@ -25,7 +25,7 @@ color: #6ADABC;
     flex-wrap: wrap;
     align-items: center;
 
-    padding-left: 7.5rem;
+    // padding-left: 0rem;
     // padding-right: 7.5rem;
 
     @media all and (max-width: 500px) {
@@ -33,7 +33,7 @@ color: #6ADABC;
         align-items: center;
         flex-direction: column;
         padding-left: 0rem;
-        padding-right: 7.5rem;
+        padding-right: 0rem;
     }
 
     width: 100%;
