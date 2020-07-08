@@ -14,7 +14,7 @@
 
  ### Font-Awesome Icons
  ### Google fonts
- ## SVG Images
+ ### SVG Images
 
  ## What you'll Learn
 
