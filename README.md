@@ -4,6 +4,8 @@
 
  ### [Live](https://alidhuniya.github.io/linguisticCenter/index.html)
 
+![Project Thumbnail](.img/projectImg-languageInstitute.png)
+
 ## Tech Stack
 
  ### HTML
