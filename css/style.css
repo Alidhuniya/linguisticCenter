@@ -594,6 +594,9 @@ body {
     margin-left: 0rem;
     cursor: pointer;
   }
+  .header__rightNav {
+    width: 50%;
+  }
 }
 
 .container__womenImage {
