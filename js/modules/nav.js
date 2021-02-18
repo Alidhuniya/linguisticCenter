@@ -11,6 +11,8 @@
 //     console.log(data)
 //  })
 
+
+
 export const navBar = async () => {
     try {
     const url = "https://alidhuniya.github.io/linguisticCenter/lang.json";

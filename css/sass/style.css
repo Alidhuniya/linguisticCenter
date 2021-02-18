@@ -370,6 +370,7 @@ body {
   text-rendering: optimizeSpeed;
   vertical-align: inherit;
   overflow-x: hidden;
+  max-width: 1534px;
 }
 
 .header__topBar {
