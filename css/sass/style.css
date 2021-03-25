@@ -563,7 +563,7 @@ body {
   .burger {
     display: block;
     margin-top: 2.3rem;
-    margin-left: 10rem;
+    margin-left: 2rem;
     cursor: pointer;
   }
   .header__rightNav {
@@ -592,7 +592,7 @@ body {
   .burger {
     display: block;
     margin-top: 2.3rem;
-    margin-left: 0rem;
+    margin-left: 10rem;
     cursor: pointer;
   }
   .header__rightNav {
