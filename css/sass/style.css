@@ -568,6 +568,7 @@ body {
   }
   .header__rightNav {
     top: 200px;
+    margin-right: 14rem;
   }
 }
 
