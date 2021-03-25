@@ -33,10 +33,16 @@
 .container6__wlcmList {
   display: flex;
   margin-top: 10rem;
+
+  // @media all and (min-width: 1538px) {
+  //   justify-content: space-evenly;
+  // }
+  
   @media all and (max-width: 1250px) {
     flex-wrap: wrap;
     justify-content: center;
   }
+ 
 }
 
 .container6__wlcmFeature {
