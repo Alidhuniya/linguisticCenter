@@ -13,9 +13,7 @@ export const Footer = async () => {
    <div class="footer-header__logo">
    <img class="header__footer-logoImg" src="${result.navBar[0].logoImg}" alt=""> 
    </div>
-
    `;
-
    document.querySelector(".header__footer-h1").innerHTML = ` ${result.navBar[0].logoHeading} `;
 
 
