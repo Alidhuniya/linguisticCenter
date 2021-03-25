@@ -563,7 +563,7 @@ body {
   .burger {
     display: block;
     margin-top: 2.3rem;
-    margin-left: 2rem;
+    margin-left: 10rem;
     cursor: pointer;
   }
   .header__rightNav {
